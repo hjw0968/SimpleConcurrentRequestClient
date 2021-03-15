@@ -6,7 +6,7 @@ SimpleConcurrentRequestClient
 
 #### 安装
 ```bash
-composer require jarod2011/simple-concurrent-request-client
+composer require jwh0968/simple-concurrent-request-client
 ```
 
 #### 版本记录

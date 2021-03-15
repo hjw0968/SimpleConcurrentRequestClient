@@ -1,5 +1,5 @@
 {
-  "name" : "jarod2011/simple-concurrent-request-client",
+  "name" : "jwh0968/simple-concurrent-request-client",
   "description" : "一个基于guzzlehttp实现的并发请求的客户端，通过此终端可以完成并发去请求多个接口并统一拿到返回结果",
   "version" : "1.1.1",
   "require" : {
@@ -7,11 +7,16 @@
   },
   "license" : "MIT",
   "autoload" : {
-    "files" : [ "src/SimpleConcurrent.php" ]
+    "psr-4": {
+      "SimpleConcurrent\\": "src/"
+    }
   },
   "type" : "library",
-  "authors" : [ {
-    "name" : "Jarod",
-    "email" : "xinghen_tj@qq.com"
-  } ]
+  "authors": [
+    {
+      "name": "Michael Dowling",
+      "email": "mtdowling@gmail.com",
+      "homepage": "https://github.com/mtdowling"
+    }
+  ]
 }
